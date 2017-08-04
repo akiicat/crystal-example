@@ -6,9 +6,10 @@ def hanoi(n, a, b, c)
   end
 end
 
-print "input an integer:"
-
+print "input an integer: "
 input = (gets || 0).to_i
+
 hanoi(input, "A", "B", "C").each do |move|
   puts "from #{move[:from]} to #{move[:to]}"
 end
+
