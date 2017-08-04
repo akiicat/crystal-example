@@ -1,0 +1,13 @@
+name: crystal-example
+version: 0.1.0
+
+authors:
+  - Akiicat <aaaa1379@gmail.com>
+
+targets:
+  crystal-example:
+    main: src/crystal-example.cr
+
+crystal: 0.23.1
+
+license: MIT
